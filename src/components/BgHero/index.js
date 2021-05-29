@@ -4,12 +4,8 @@ import "../../styles/components/BgHero.css";
 function BgHero() {
   return (
     <div className="bgHero">
-      <div
-        className="HG"
-        style={{ backgroundImage: "url('/assets/HG.png')" }}
-      >
-      <div className="content-shadow"></div>
-
+      <div className="HG" style={{ backgroundImage: "url('/assets/HG.png')" }}>
+        <div className="content-shadow"></div>
       </div>
       <div
         className="MG"
@@ -19,6 +15,8 @@ function BgHero() {
         className="VG"
         style={{ backgroundImage: "url('/assets/VG.png')" }}
       ></div>
+
+      <div className="bg-footer-shadow"></div>
     </div>
   );
 }
