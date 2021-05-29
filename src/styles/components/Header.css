@@ -1,0 +1,54 @@
+nav {
+  margin-top: 64px;
+  display: flex;
+  box-sizing: border-box;
+  position: absolute;
+  justify-content: space-between;
+  height: 25px;
+  width: 100%;
+  padding-left: 80px;
+  padding-right: 80px;
+  color: #ffff;
+  z-index: 100;
+}
+
+.logo {
+  display: flex;
+  width: 108px;
+  font-size: 24px;
+  font-family: "ChronicleDisplayBlack";
+  align-items: center;
+  justify-content: center;
+}
+
+.account {
+  font-family: "Gilroylight";
+  display: flex;
+  font-weight: bold;
+  text-align: center;
+  font-size: 14px;
+  height: 24px;
+  width: 98px;
+  align-items: center;
+  justify-content: center;
+}
+
+ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+li + li {
+  margin-left: 40px;
+}
+
+li {
+  font-family: "Gilroylight";
+  font-size: 16px;
+  font-weight: bold;
+}
+
+div > span {
+  margin-left: 5px;
+}
