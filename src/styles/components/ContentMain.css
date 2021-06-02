@@ -1,0 +1,55 @@
+.container--main {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  height: 310px;
+  width: 59.375rem;
+
+  z-index: 100;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 15.625rem;
+}
+
+.header--content {
+  display: flex;
+  align-items: center;
+  font-family: Gilroylight;
+  color: #fbd784;
+  margin-bottom: 32px;
+  letter-spacing: 6px;
+  align-items: center;
+}
+
+.rectang {
+  margin-right: 36px;
+}
+
+.content--main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffff;
+  margin-bottom: 32px;
+}
+
+.content--main > h2 {
+  font-family: ChronicleDisplayBlack;
+  font-size: 5.5rem;
+}
+
+.footer--content {
+  display: flex;
+  font-family: Gilroylight;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.footer--content > a {
+  text-decoration: none;
+  color: #ffff;
+}
+
+a > span {
+  margin-right: 15px;
+}

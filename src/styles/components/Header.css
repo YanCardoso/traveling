@@ -49,6 +49,6 @@ li {
   font-weight: bold;
 }
 
-div > span {
+.account {
   margin-left: 5px;
 }
