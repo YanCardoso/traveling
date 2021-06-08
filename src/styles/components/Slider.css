@@ -1,0 +1,54 @@
+.container--slider {
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+  position: fixed;
+  z-index: 101;
+  width: 77px;
+  height: 240px;
+
+  right: 0;
+  top: 22rem;
+  margin-right: 80px;
+  filter: drop-shadow(0px 0px 100px rgba(0, 0, 0, 0.2));
+}
+
+.container--index {
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+  font-family: Gilroylight;
+  font-weight: bold;
+  font-size: 1.125rem;
+  flex-direction: column;
+}
+
+
+.list--itens{
+  display: flex;
+  justify-content: flex-end;
+  text-decoration: none;
+  color: #ffff;
+}
+
+.list--margin{
+  margin-bottom: 2.5rem;
+
+}
+
+.container--scroll {
+  position: relative;
+  height: inherit;
+  width: 3px;
+  background-color:#ffff;
+}
+
+.scroll--indicator {
+position: absolute;
+background-color: black;
+top: 60px;
+height: 60px;
+width: 3px;
+}
+
+

@@ -5,7 +5,7 @@ function Header() {
   return (
     <nav className="firstnav">
       <div className="logo">MNTN</div>
-      <ul>
+      <ul className="ul--header">
         <li>
           <a href="#"></a>Equipment
         </li>
