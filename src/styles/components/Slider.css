@@ -23,32 +23,28 @@
   flex-direction: column;
 }
 
-
-.list--itens{
+.list--itens {
   display: flex;
   justify-content: flex-end;
   text-decoration: none;
   color: #ffff;
 }
 
-.list--margin{
+.list--margin {
   margin-bottom: 2.5rem;
-
 }
 
 .container--scroll {
   position: relative;
   height: inherit;
   width: 3px;
-  background-color:#ffff;
+  background-color: rgba(255, 255, 255, 0.5);
 }
 
 .scroll--indicator {
-position: absolute;
-background-color: black;
-top: 60px;
-height: 60px;
-width: 3px;
+  position: absolute;
+  background-color: #ffff;
+  top: calc(2 * 60px);
+  height: 60px;
+  width: 3px;
 }
-
-
