@@ -1,20 +1,23 @@
 .container--content {
   display: flex;
+  flex-direction: column;
   box-sizing: border-box;
   position: absolute;
   height: inherit;
   width: 100%;
   z-index: 100;
   top: 1440px;
-
   padding: 0px 230px;
 }
+
+/* Section 01 */
 
 #section--01 {
   display: flex;
   position: relative;
   height: 720px;
   width: 100%;
+  margin-bottom: 200px;
 }
 
 #section--01 #img01 {
@@ -41,7 +44,7 @@
   height: 440px;
   width: 630px;
   top: 20%;
-  left: 12%;
+  left: 11.2%;
   flex-direction: column;
   position: absolute;
 }
@@ -58,12 +61,13 @@
   font-family: Gilroylight;
   font-size: 18px;
   font-weight: bold;
+  line-height: 32px;
 }
 
 .tag--name {
   display: flex;
   height: 24px;
-  width: 280px;
+  width: 100%;
   align-items: center;
 }
 
@@ -98,5 +102,58 @@
   font-family: "GilroyExtraBold";
   font-size: 18px;
   text-transform: lowercase;
-  
+}
+
+/* Section 02 */
+
+#section--02 {
+  display: flex;
+  position: relative;
+  height: 720px;
+  width: 100%;
+  margin-bottom: 200px;
+}
+
+#section--02 #img02 {
+  position: absolute;
+  left: 0px;
+}
+
+#section--02 #tag--number02 {
+  position: absolute;
+  box-sizing: border-box;
+  z-index: 100;
+  top: 38px;
+  font-size: 240px;
+  font-family: "GilroyExtraBold";
+  opacity: 0.1;
+  color: #ffff;
+}
+
+.content--body--main--2 {
+  box-sizing: border-box;
+  color: #ffff;
+  display: flex;
+  z-index: 101;
+  height: 440px;
+  width: 630px;
+  top: 20%;
+  right: 0px;
+  flex-direction: column;
+  position: absolute;
+}
+
+.content--body--main--2 > h1 {
+  font-size: 64px;
+  font-family: ChronicleDisplayBlack;
+  line-height: 77px;
+  margin-top: 27px;
+}
+
+.content--body--main--2 > p {
+  margin-top: 27px;
+  font-family: Gilroylight;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 32px;
 }
