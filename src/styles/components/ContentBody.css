@@ -3,7 +3,6 @@
   flex-direction: column;
   box-sizing: border-box;
   position: absolute;
-  height: inherit;
   width: 100%;
   z-index: 100;
   top: 1440px;
@@ -123,7 +122,8 @@
   position: absolute;
   box-sizing: border-box;
   z-index: 100;
-  top: 38px;
+  top: 5.28%;
+  right: 34.68%;
   font-size: 240px;
   font-family: "GilroyExtraBold";
   opacity: 0.1;
@@ -156,4 +156,30 @@
   font-size: 18px;
   font-weight: bold;
   line-height: 32px;
+}
+
+/* Section 3 */
+
+#section--03 {
+  display: flex;
+  position: relative;
+  height: 720px;
+  width: 100%;
+  margin-bottom: 200px;
+}
+
+#section--03 #img03 {
+  position: absolute;
+  right: 0px;
+}
+
+#section--03 #tag--number03 {
+  position: absolute;
+  box-sizing: border-box;
+  z-index: 100;
+  top: 38px;
+  font-size: 240px;
+  font-family: "GilroyExtraBold";
+  opacity: 0.1;
+  color: #ffff;
 }

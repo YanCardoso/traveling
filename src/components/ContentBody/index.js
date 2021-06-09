@@ -1,4 +1,6 @@
 import React from "react";
+import Footer from "../Footer/index.js";
+
 import "../../styles/components/ContentBody.css";
 
 function ContentBody() {
@@ -52,7 +54,31 @@ function ContentBody() {
         </div>
         <img id="img02" src="./assets/02.png" />
       </section>
-      <section id="section--03"></section>
+
+      {/* Section 3 */}
+      <section id="section--03">
+        <span id="tag--number03">03</span>
+        <div className="content--body--main">
+          <div className="tag--name">
+            <img src="./assets/Rectangle.png" />
+            <span>Where you go is the key</span>
+          </div>
+          <h1>Understand Your Map & Timing</h1>
+          <p>
+            To start, print out the hiking guide and map. If it’s raining, throw
+            them in a Zip-Lock bag. Read over the guide, study the map, and have
+            a good idea of what to expect. I like to know what my next landmark
+            is as I hike. For example, I’ll read the guide and know that say, in
+            a mile, I make a right turn at the junction..
+          </p>
+          <div className="tag--footer">
+            <span>Read more</span>
+            <img src="./assets/icon-navigation-arrow_downward_24px.png" />
+          </div>
+        </div>
+        <img id="img03" src="./assets/03.png" />
+      </section>
+      <Footer />
     </div>
   );
 }
