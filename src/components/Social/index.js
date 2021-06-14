@@ -7,10 +7,10 @@ function Social() {
     <div className="container--social">
       <span className="socialMedia">Follow us</span>
       <a className="instagram" href="#">
-        <img src="./assets/instagram.png" />
+        <img src="./assets/instagram.png" alt="Instagram"/>
       </a>
       <a className="twitter" href="#">
-        <img src="./assets/twitter.png" />
+        <img src="./assets/twitter.png" alt="Twitter"/>
       </a>
     </div>
   );

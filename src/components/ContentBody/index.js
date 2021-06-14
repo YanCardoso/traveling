@@ -10,7 +10,7 @@ function ContentBody() {
         <span id="tag--number">01</span>
         <div className="content--body--main">
           <div className="tag--name">
-            <img src="./assets/Rectangle.png" />
+            <img src="./assets/Rectangle.png" alt="seta" />
             <span>Get Started</span>
           </div>
           <h1>What level of hiker are you?</h1>
@@ -24,10 +24,13 @@ function ContentBody() {
           </p>
           <div className="tag--footer">
             <span>Read more</span>
-            <img src="./assets/icon-navigation-arrow_downward_24px.png" />
+            <img
+              src="./assets/icon-navigation-arrow_downward_24px.png"
+              alt="seta"
+            />
           </div>
         </div>
-        <img id="img01" src="./assets/01.png" />
+        <img id="img01" src="./assets/01.png" alt="Imagem 01" />
       </section>
 
       {/* Section 02 */}
@@ -36,7 +39,7 @@ function ContentBody() {
         <span id="tag--number02">02</span>
         <div className="content--body--main--2">
           <div className="tag--name">
-            <img src="./assets/Rectangle.png" />
+            <img src="./assets/Rectangle.png" alt="seta"/>
             <span>Hiking Essentials</span>
           </div>
           <h1>Picking the right Hiking Gear!</h1>
@@ -49,10 +52,10 @@ function ContentBody() {
           </p>
           <div className="tag--footer">
             <span>Read more</span>
-            <img src="./assets/icon-navigation-arrow_downward_24px.png" />
+            <img src="./assets/icon-navigation-arrow_downward_24px.png" alt="seta"/>
           </div>
         </div>
-        <img id="img02" src="./assets/02.png" />
+        <img id="img02" src="./assets/02.png" alt="Imagem 02"/>
       </section>
 
       {/* Section 3 */}
@@ -60,7 +63,7 @@ function ContentBody() {
         <span id="tag--number03">03</span>
         <div className="content--body--main">
           <div className="tag--name">
-            <img src="./assets/Rectangle.png" />
+            <img src="./assets/Rectangle.png" alt="seta"/>
             <span>Where you go is the key</span>
           </div>
           <h1>Understand Your Map & Timing</h1>
@@ -73,10 +76,10 @@ function ContentBody() {
           </p>
           <div className="tag--footer">
             <span>Read more</span>
-            <img src="./assets/icon-navigation-arrow_downward_24px.png" />
+            <img src="./assets/icon-navigation-arrow_downward_24px.png" alt="seta"/>
           </div>
         </div>
-        <img id="img03" src="./assets/03.png" />
+        <img id="img03" src="./assets/03.png" alt="Imagem 03"/>
       </section>
       <Footer />
     </div>

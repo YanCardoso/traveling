@@ -3,7 +3,7 @@ import "../../styles/components/BgHero.css";
 
 function BgHero() {
   return (
-    <div className="bgHero">
+    <div className="bgHero" id="hero">
       <div className="HG" style={{ backgroundImage: "url('/assets/HG.png')" }}>
         <div className="content-shadow"></div>
       </div>

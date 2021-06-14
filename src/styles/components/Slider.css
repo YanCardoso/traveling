@@ -44,7 +44,7 @@
 .scroll--indicator {
   position: absolute;
   background-color: #ffff;
-  top: calc(2 * 60px);
   height: 60px;
   width: 3px;
+  transition-duration: 1000ms;
 }
