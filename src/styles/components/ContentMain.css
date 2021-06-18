@@ -4,11 +4,12 @@
   position: absolute;
   height: 310px;
   width: 59.375rem;
-
+  justify-content: center;
   z-index: 100;
   left: 50%;
   transform: translateX(-50%);
   top: 15.625rem;
+
 }
 
 .header--content {
@@ -36,7 +37,8 @@
 
 .content--main > h2 {
   font-family: ChronicleDisplayBlack;
-  font-size: 5.5rem;
+  font-size: 5rem;
+  text-transform: capitalize;
 }
 
 .footer--content {

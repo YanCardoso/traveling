@@ -1,14 +1,16 @@
 .bgHero {
+  display: flex;
   height: 100vh;
   width: 100%;
   position: absolute;
   top: 0px;
   left: 0px;
+  overflow-x: clip;
 }
 
 .content-shadow {
-  height: inherit;
-  width: inherit;
+  height: 800px;
+  width: 100%;
   position: absolute;
   top: 0px;
   left: 0px;
@@ -17,53 +19,47 @@
     rgba(106, 150, 172, 0) 21.06%,
     #0b1d26 108.93%
   );
+
+  z-index: 10 ;
 }
 
 .HG {
   position: absolute;
-  width: 100%;
-  height: 120%;
+  width: 1920px;
+  height: 1513px;
   left: 0px;
   top: -400px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
   z-index: 9;
 }
 
 .MG {
   position: absolute;
-  width: 100%;
-  height: 150%;
+  width: 1920px;
+  height: 1422px;
   left: 0px;
-  top: 400px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
+  top: 464px;
   z-index: 98;
 }
 
 .VG {
   position: absolute;
-  width: 100%;
-  height: 100%;
+  width: 1920px;
+  height: 926px;
   left: 0px;
-  top: 800px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-
+  top: 768px;
   z-index: 99;
 }
 
-.bg-footer-shadow{
+.bg-footer-shadow {
   position: absolute;
   width: 100%;
   height: 700px;
   top: 1200px;
   left: 0px;
 
-  background: linear-gradient(180deg, rgba(11, 29, 38, 0) 0%, #0B1D26 61.38%);
+  background: linear-gradient(180deg, rgba(11, 29, 38, 0) 0%, #0b1d26 61.38%);
   z-index: 100;
-
 }
+
+
+
