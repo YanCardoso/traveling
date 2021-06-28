@@ -49,6 +49,48 @@ nav {
   font-weight: bold;
 }
 
-.account {
+.account1 {
   margin-left: 5px;
+}
+
+@media (max-width: 425px){
+  nav {
+    margin-top: 44px;
+    display: flex;
+    box-sizing: border-box;
+    position: absolute;
+    height: 80px;
+    width: 100%;
+    color: #ffff;
+    z-index: 100;
+    padding: 0 10px;
+    align-items: center;
+  }
+
+  .account {
+    font-family: "Gilroylight";
+    display: flex;
+    font-weight: bold;
+    text-align: center;
+    font-size: 12px;
+    height: 24px;
+    width: 98px;
+    align-items: center;
+  }
+
+  .account img {
+    width: 16px;
+    height: 16px;
+  }
+
+  .ul--header > li + li {
+    margin-left: 20px;
+  }
+
+  .ul--header > li {
+    font-family: "Gilroylight";
+    font-size: 12px;
+    font-weight: bold;
+  }
+
 }

@@ -1,4 +1,22 @@
 .app {
-    height: 4500px;
-    background-color: #0B1D26;
+  height: 490vh;
+  background-color: #0b1d26;
+}
+
+@media (max-width: 1024px) {
+  .app {
+    height: 432vh;
+  }
+}
+
+@media (max-width: 768px) {
+  .app {
+    height: 414vh;
+  }
+}
+
+@media (max-width: 425px) {
+  .app {
+    height: 660vh;
+  }
 }

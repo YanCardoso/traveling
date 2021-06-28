@@ -78,3 +78,174 @@
   height: inherit;
   right: 370px;
 }
+
+@media (max-width: 1024px) {
+  .container--footer {
+    display: flex;
+    box-sizing: border-box;
+    position: relative;
+    width: auto;
+    height: 340px;
+  }
+
+  .container--logo {
+    display: flex;
+    position: absolute;
+    width: 108px;
+    font-size: 24px;
+    align-items: center;
+  }
+
+  .container--logo > span {
+    font-family: "ChronicleDisplayBlack";
+    color: #ffff;
+  }
+
+  .container--text {
+    position: absolute;
+    bottom: 60px;
+    height: 64px;
+    width: 340px;
+  }
+
+  .container--text > span {
+    font-size: 18px;
+    font-family: Gilroylight;
+    font-weight: bolder;
+    line-height: 32px;
+    color: #ffff;
+  }
+
+  .container--copy {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+  }
+
+  .container--copy > span {
+    font-family: Gilroylight;
+    font-weight: bold;
+    line-height: 32px;
+    color: #ffff;
+    opacity: 0.5;
+  }
+
+  .links--more {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 160px;
+    height: 180px;
+  }
+
+  .links--more > h1,
+  .links--blog > h1 {
+    font-family: GilroyExtraBold;
+    color: #fbd784;
+    margin-bottom: 16px;
+  }
+
+  .links--more ul li,
+  .links--blog ul li {
+    font-family: Gilroylight;
+    font-weight: bold;
+    color: #ffff;
+    margin-bottom: 16px;
+  }
+
+  .links--blog {
+    position: absolute;
+    width: 190px;
+    height: inherit;
+    right: 200px;
+  }
+}
+
+@media (max-width: 425px) {
+  .container--footer {
+    display: flex;
+    box-sizing: border-box;
+    position: relative;
+    width: auto;
+    height: 340px;
+  }
+
+  .container--logo {
+    display: flex;
+    position: absolute;
+    width: 108px;
+    font-size: 24px;
+    align-items: center;
+  }
+
+  .container--logo > span {
+    font-family: "ChronicleDisplayBlack";
+    color: #ffff;
+  }
+
+  .container--text {
+    position: absolute;
+    bottom: 20px;
+    height: 64px;
+    width: 340px;
+  }
+
+
+  .container--text > span {
+    font-size: 12px;
+    font-family: Gilroylight;
+    font-weight: bolder;
+    line-height: 22px;
+    color: #ffff;
+  }
+
+  .container--copy {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+  }
+
+  .container--copy > span {
+    font-family: Gilroylight;
+    font-weight: bold;
+    line-height: 22px;
+    font-size: 12px;
+    color: #ffff;
+    opacity: 0.5;
+  }
+
+  .links--more {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 160px;
+    height: auto;
+    top: 50px;
+  }
+
+  .links--more > h1,
+  .links--blog > h1 {
+    font-family: GilroyExtraBold;
+    color: #fbd784;
+    margin-bottom: 12px;
+    font-size: 12px;
+  }
+
+  .links--more ul li,
+  .links--blog ul li {
+    font-family: Gilroylight;
+    font-weight: bold;
+    color: #ffff;
+    margin-bottom: 16px;
+    font-size: 12px;
+
+  }
+
+  .links--blog {
+    position: absolute;
+    width: 190px;
+    height: auto;
+    left: 0px;
+    top: 50px;
+  }
+}

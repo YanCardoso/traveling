@@ -19,7 +19,7 @@ function Header() {
 
       <div className="account">
         <img className="user" src="/assets/userIcon.png" />
-        <span className="account">Account</span>
+        <span className="account1">Account</span>
       </div>
     </nav>
   );
