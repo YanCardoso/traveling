@@ -1,6 +1,8 @@
 import React from "react";
 import "../../styles/components/ContentMain.css";
 
+
+
 function ContentMain() {
   return (
     <div className="container--main">

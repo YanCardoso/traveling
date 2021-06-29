@@ -1,6 +1,6 @@
 {
   "name": "traveling",
-  "homepage": "https://YanCardoso.github.io",
+  "homepage" : "https://YanCardos.github.io/traveling" ,
   "version": "0.1.0",
   "private": true,
   "dependencies": {

@@ -5,24 +5,24 @@
 
 @media (max-width: 1024px) {
   .app {
-    height: 432vh;
+    height: 260vh;
   }
 }
 
 @media (max-width: 768px) {
   .app {
-    height: 414vh;
+    height: 260vh;
   }
 }
 
 @media (max-width: 425px) {
   .app {
-    height: 666vh;
+    height: 222vh;
   }
 }
 
 @media (max-width: 375px) {
   .app {
-    height: 830vh;
+    height: 222vh;
   }
 }
