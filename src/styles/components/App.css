@@ -1,5 +1,5 @@
 .app {
-  height: 490vh;
+  height: 460vh;
   background-color: #0b1d26;
 }
 
@@ -17,6 +17,12 @@
 
 @media (max-width: 425px) {
   .app {
-    height: 660vh;
+    height: 666vh;
+  }
+}
+
+@media (max-width: 375px) {
+  .app {
+    height: 670vh;
   }
 }

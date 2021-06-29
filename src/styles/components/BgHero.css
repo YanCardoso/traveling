@@ -20,7 +20,7 @@
     #0b1d26 108.93%
   );
 
-  z-index: 10 ;
+  z-index: 10;
 }
 
 .HG {
@@ -62,8 +62,30 @@
 }
 
 @media (max-width: 425px) {
- 
+  .HG {
+    position: absolute;
+    width: 1920px;
+    height: 1513px;
+    left: 0px;
+    top: -400px;
+    z-index: 9;
+  }
+
+  .MG {
+    position: absolute;
+    width: 1920px;
+    height: 1422px;
+    left: -320px;
+    top: 464px;
+    z-index: 98;
+  }
+
+  .VG {
+    position: absolute;
+    width: 1920px;
+    height: 926px;
+    left: -400px;
+    top: 768px;
+    z-index: 99;
+  }
 }
-
-
-

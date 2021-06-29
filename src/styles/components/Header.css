@@ -91,6 +91,13 @@ nav {
     font-family: "Gilroylight";
     font-size: 12px;
     font-weight: bold;
+    display: none;
   }
 
+}
+
+@media (max-width: 375px){
+  .ul--header > li + li {
+    margin-left: 20px;
+  }
 }
